@@ -1,0 +1,30 @@
+/* Application-wide Styles */
+
+/* CSS HEX
+--cadet-blue: #729ea1ff;
+--sage: #b5bd89ff;
+--tan: #dfbe99ff;
+--light-coral: #ec9192ff;
+--blush: #db5375ff; */
+
+h1 {
+  color: #729ea1ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #b5bd89ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
